@@ -1,0 +1,81 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.profile-wrapper {
+    background-image: linear-gradient(rgba(5, 22, 34, 0.3), rgba(5, 22, 34, 0.1)), url("../images/bubble_18.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.profile-body {
+    width: 23.5em;
+    height: 50.75em;
+    background: #29013c;
+}
+
+.profile-body-img {
+    display:block;
+    background-repeat:no-repeat;
+    width: 23.4em;
+    height: 30em;
+    left: 0px;
+    top: 0px;
+    background-image:  url("../images/profileBodyImgFaded3.png");
+    background-size: 100% 100%;
+}
+
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic {
+    box-sizing: border-box;
+    margin: auto;
+
+    width: 6.25em;
+    height: 6.25em;
+    margin-top: 8.125em;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+
+.name-and-job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name-text {
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0.3em 0 0 0;
+}
+
+.job-text {
+    text-align: center;
+    font-size: 1em;
+    color: #c1c1c1;
+    text-shadow: 0.2em 0.2em 0.3em black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0.3em 0 0 0;
+}
+
+.stats {
+
+}
