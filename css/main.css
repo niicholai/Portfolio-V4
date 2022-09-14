@@ -8,6 +8,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.text-shadow {
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family: 'Roboto', sans-serif;
+}
+
 .profile-wrapper {
     background-image: linear-gradient(rgba(5, 22, 34, 0.3), rgba(5, 22, 34, 0.1)), url("../images/bubble_18.jpg");
     display: flex;
@@ -46,7 +51,7 @@ body {
 
     width: 6.25em;
     height: 6.25em;
-    margin-top: 8.125em;
+    margin-top: 5.125em;
 
     border: 1px solid #FFFFFF;
     border-radius: 100px;
@@ -62,8 +67,6 @@ body {
     text-align: center;
     font-size: 2em;
     color: #ffffff;
-    text-shadow: 0.1em 0.1em 0.2em black;
-    font-family: 'Roboto', sans-serif;
     margin: 0.3em 0 0 0;
 }
 
@@ -77,5 +80,43 @@ body {
 }
 
 .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
 
+.cont-number {
+    color: #ffffff;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.cont-text {
+    color: #ffffff;
+}
+
+.projects-number {
+    color: #ffffff;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.projects-text {
+    color: #ffffff;
+}
+
+.tech-number {
+    color: #ffffff;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.tech-text {
+    color: #ffffff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5em;
 }
